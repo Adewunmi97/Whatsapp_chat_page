@@ -1,0 +1,110 @@
+@import "./partials/root";
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 30rem;
+    height: 95vh;
+    box-shadow: 0 0 5px 5px $shadow;
+    border-radius: 3px;
+    background-color: $white;
+
+    .top {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        gap: 1em;
+        border-bottom: 1px solid $green;
+        color: $green;
+
+        .edit-icons {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        h3 {
+            color: $dark;
+            font-size: 1.8rem;
+        }
+
+        .search {
+            width: 100%;
+            position: relative;
+
+            input {
+                width: 100%;
+                padding: 10px 25px;
+                border-radius: 5px;
+                font-size: 1.1rem;
+                border: 1px solid $green;
+
+                &:focus {
+                    box-shadow: 0 0 0 4px $focus;
+                    outline: none;
+                }
+            }
+
+            .icon {
+                top: 50%;
+                left: .5em;
+                transform: translateY(-50%);
+                position: absolute;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .chats {
+        overflow: hidden;
+        overflow-y: auto;
+        padding-bottom: 15px;
+
+        #not-found {
+            display: none;
+            text-align: center;
+            padding-block: 20px;
+            font-size: 25px;
+            font-weight: 900;
+            color: $dark;
+
+            &.open {
+                display: block;
+            }
+        }
+
+        .list {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            li {
+                display: flex;
+                width: 100%;
+                gap: 2.5rem;
+                padding-left: 15px;
+                padding-top: 15px;
+
+                &.hide {
+                    display: none;
+                }
+
+                img {
+                    width: 65px;
+                    height: 65px;
+                    border-radius: 50%;
+                }
+
+                p {
+                    border-bottom: 1px solid $gray;
+                    display: flex;
+                    align-items: center;
+                    flex-grow: 1;
+                    font-size: 1.3rem;
+                    color: $dark;
+                }
+            }
+        }
+    }
+}

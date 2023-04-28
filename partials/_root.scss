@@ -1,0 +1,21 @@
+$green: #0a6e50;
+$shadow: #e2e9e7;
+$bg-body: #edf4f2;
+$white: #ffffff;
+$dark: #333333;
+$focus: #9dc5b9;
+$gray: #808080;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    overflow: hidden;
+    background-color: $bg-body;
+}
