@@ -1,9 +1,11 @@
 # Whatsapp_chat_page
 Just a javaScript project on the UI of the whatsapp chat page, focusing on the search 
 
-* Screenshot
+* Screenshots
 
-![Screenshot (4)](https://user-images.githubusercontent.com/60876346/236550468-b2261964-36ee-4b98-a4b9-a28627df1608.png)
+![Screenshot (1)](https://user-images.githubusercontent.com/60876346/236608291-633f9915-c2a1-42c3-bf5a-8f5d0e2f3d68.png)
+![Screenshot (2)](https://user-images.githubusercontent.com/60876346/236608304-8ef78c0b-b869-48b1-aea2-e52fe306e3fe.png)
+
 
 ## Built With
 
