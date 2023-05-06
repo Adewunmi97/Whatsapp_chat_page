@@ -14,7 +14,7 @@ Just a javaScript project on the UI of the whatsapp chat page, focusing on the s
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/Adewunmi97/Whatsapp_chat_page/feature/index.html)
 
 
 ## Project Description
