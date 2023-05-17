@@ -21,7 +21,7 @@ Just a javaScript project on the UI of the whatsapp chat page, focusing on the s
 
 ## Project Description
 
-* The Whatsapp chat page is a clone of the whatsapp chat page which is targetted on the functionality of searching names by any letter inputrd in the search bar.
+* The Whatsapp chat page is a clone of the whatsapp chat page which is targetted on the functionality of searching names by any letter inputed in the search bar.
 
 ## Getting Started
 
